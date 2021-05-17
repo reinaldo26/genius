@@ -1,5 +1,5 @@
 # Genius
 
-Você já jogou Genius?
+Have you ever played Genius?
 
-Genius era um brinquedo muito popular na década de 1980. Distribuído pela Estrela, o brinquedo buscava estimular a memorização de cores e sons. Com um formato semelhante a um OVNI, possuía botões coloridos que emitiam sons harmônicos e se iluminavam em sequência. Cabia aos jogadores repetir o processo sem errar.
+Genius was a very popular toy in the 1980s. Distributed by Estrela, the toy sought to stimulate the memorization of colors and sounds. With a shape similar to a UFO, it had colored buttons that emitted harmonic sounds and lit up in sequence. It was up to the players to repeat the process without making a mistake. 
