@@ -56,7 +56,26 @@ _gui.start.addEventListener("click", () => {
 });
 
 const padListener = (e) => {
+	if(!_data.playerCanPlay) return;
+	let soundId;
+	_gui.pads.forEach((pad, key) => {
+		if(pad === e.target) soundId = key;
+	});
 
+	e.target.classList.add("game__pad--active");
+	_data.sounds[soundId].play();
+	_data.playSequence.push(soundId);
+	e.target.classList.remove("game__pad--active");
+	const currentMove = _data.playerSequence.length - 1;
+
+	if(_data.playerSequence[currentMove] !== _data.gameSequence[currentMove]) {
+		_data.playerCanPlay = false;
+		disablePads();
+		playSequence();
+	} else if(currentMove === _data.gameSequence.length - 1) {
+		newColor();
+		playSequence();
+	}
 }
 
 _gui.pads.forEach(pad => {
