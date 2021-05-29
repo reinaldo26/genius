@@ -1,4 +1,5 @@
 # Genius
+http://genius.surge.sh
 
 Have you ever played Genius?
 
