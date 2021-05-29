@@ -90,12 +90,12 @@ _gui.pads.forEach(pad => {
 
 const startGame = () => {
 	blink("--", () => {
-		newColor();
-		newColor();
-		newColor();
-		newColor();
-		newColor();
-		newColor();
+		let number = Math.floor(Math.random() * 6);
+
+		for(let i = 0; i<=number; i++) {
+			newColor();
+		}
+		
 		playSequence();
 	});
 }
